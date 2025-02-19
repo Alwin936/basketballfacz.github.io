@@ -1,0 +1,685 @@
+.homepage {
+    font-size: 55px;
+    text-align: center;
+    font-weight: bolder;
+    position: relative;
+    z-index: 1;
+    color: #C8102E;
+    font-family: "Grand Hotel", cursive;
+}
+
+h3 {
+    text-align: center;
+}
+
+.home-intro {
+    padding-top: 100px;
+    color: #1D428A;
+    font-family: "Lobster Two", sans-serif;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+}
+
+.navigation {
+    background-color: #ee6730;
+    font-size: 14px;
+    font-family: "Madimi One", sans-serif;
+    color: #C8102E;
+    text-decoration: none;
+    margin-right: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+}
+
+#kobe {
+    height: 1000px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+#background-homepage {
+    z-index: -10;
+    display: block;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: -250px;
+    padding-bottom: 30px;
+}
+
+.extra-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.extra-nav {
+    display: inline-flex;
+    font-family: "Madimi One", sans-serif;
+    background-color: #ee6730;
+    border-right: 1px solid #bbb;
+    border-left: 1px solid #bbb;
+    justify-items: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.last-child-nav {
+    display: inline-flex;
+    background-color: #ee6730;
+    padding: 14px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    justify-items: right;
+    align-items: right;
+    align-self: right;
+}
+
+.extra-nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+
+.extra-nav a:hover:not(.active) {
+    background-color: #C8102E;
+}
+
+.active {
+    background-color: #1D428A;
+}
+
+.infopage-intro {
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-weight: lighter;
+}
+
+.ranked-players {
+    text-align: left;
+    font-weight: normal;
+    font-size: 25px;
+    margin-bottom: 5px;
+    font-family: "Lobster", sans-serif;
+}
+
+.player-bios {
+    text-indent: 25px;
+    margin-right: 675px; 
+    font-family: "Caveat", cursive;
+    font-weight: 600;
+}
+
+.career-stats {
+    text-align: left;
+    font-family: "Open Sans", sans-serif;
+}
+
+.stat-items {
+    font-family: "Grandstander", cursive;
+}
+
+.bs {
+    margin-bottom: 2px;
+}
+
+#jerry-west {
+    height: 650px;
+    padding-left: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.jerry-west-2 {
+    margin-right: auto;
+    justify-content: left;
+    align-content: left;
+    justify-items: left;
+    align-items: left;
+    justify-self: left;
+    align-self: left;
+    text-align: left;
+    display: inline-block;
+}
+
+.jerry-west-content {
+    margin-right: auto;
+    justify-content: left;
+    align-content: left;
+    justify-items: left;
+    align-items: left;
+    justify-self: left;
+    align-self: left;
+    text-align: left;
+    display: inline-block;
+    padding-right: 5px;
+    text-indent: 25px;
+    font-family: "Caveat", cursive;
+    font-weight: 600;
+}
+
+#julius-erving {
+    margin-top: -600px;
+    margin-left: 850px;
+    height: 600px; 
+}
+
+.julius-erving-2 {
+    margin-right: auto;
+    justify-content: left;
+    align-content: left;
+    justify-items: left;
+    align-items: left;
+    justify-self: left;
+    align-self: left;
+    text-align: left;
+    display: inline-block;
+}
+
+.julius-erving-content {
+    margin-right: auto;
+    justify-content: left;
+    align-content: left;
+    justify-items: left;
+    align-items: left;
+    justify-self: left;
+    align-self: left;
+    text-align: left;
+    display: inline-block;
+    padding-right: 5px;
+    text-indent: 25px;
+    font-family: "Caveat", cursive;
+    font-weight: 600;
+}
+
+#hakeem-olajuwon {
+    margin-top: -600px;
+    margin-left: 800px;
+    height: 600px; 
+}
+
+.hakeem-olajuwon-2 {
+    margin-right: auto;
+    justify-content: left;
+    align-content: left;
+    justify-items: left;
+    align-items: left;
+    justify-self: left;
+    align-self: left;
+    text-align: left;
+    display: inline-block;
+}
+
+.hakeem-olajuwon-content {
+    margin-right: auto;
+    justify-content: left;
+    align-content: left;
+    justify-items: left;
+    align-items: left;
+    justify-self: left;
+    align-self: left;
+    text-align: left;
+    display: inline-block;
+    padding-right: 5px;
+    text-indent: 25px;
+    font-family: "Caveat", cursive;
+    font-weight: 600;
+}
+
+#kevin-durant {
+    margin-top: -600px;
+    margin-left: 790px;
+    height: 600px; 
+}
+
+.kevin-durant-2 {
+    margin-right: auto;
+    justify-content: left;
+    align-content: left;
+    justify-items: left;
+    align-items: left;
+    justify-self: left;
+    align-self: left;
+    text-align: left;
+    display: inline-block;
+}
+
+.kevin-durant-content {
+    margin-right: auto;
+    justify-content: left;
+    align-content: left;
+    justify-items: left;
+    align-items: left;
+    justify-self: left;
+    align-self: left;
+    text-align: left;
+    display: inline-block;
+    padding-right: 5px;
+    text-indent: 25px;
+    font-family: "Caveat", cursive;
+    font-weight: 600;
+}
+
+#steph-curry {
+    margin-top: -600px;
+    margin-left: 850px;
+    height: 600px; 
+    margin-bottom: 100px;
+}
+
+.steph-curry-2 {
+    margin-right: auto;
+    justify-content: left;
+    align-content: left;
+    justify-items: left;
+    align-items: left;
+    justify-self: left;
+    align-self: left;
+    text-align: left;
+    display: inline-block;
+}
+
+.steph-curry-content {
+    margin-right: auto;
+    justify-content: left;
+    align-content: left;
+    justify-items: left;
+    align-items: left;
+    justify-self: left;
+    align-self: left;
+    text-align: left;
+    display: inline-block;
+    padding-right: 5px;
+    text-indent: 25px;
+    font-family: "Caveat", cursive;
+    font-weight: 600;
+}
+
+#shaq-the-diesel {
+    height: 650px;
+    padding-left: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.shaq-the-diesel-2 {
+    margin-right: auto;
+    justify-content: left;
+    align-content: left;
+    justify-items: left;
+    align-items: left;
+    justify-self: left;
+    align-self: left;
+    text-align: left;
+    display: inline-block;
+}
+
+.shaq-the-diesel-content {
+    margin-right: auto;
+    justify-content: left;
+    align-content: left;
+    justify-items: left;
+    align-items: left;
+    justify-self: left;
+    align-self: left;
+    text-align: left;
+    display: inline-block;
+    padding-right: 5px;
+    text-indent: 25px;
+    font-family: "Caveat", cursive;
+    font-weight: 600;
+}
+
+#tim-duncan {
+    justify-self: center;
+    align-self: center;
+    height: 700px;
+}
+
+.tim-duncan-2 {
+    margin-right: auto;
+    justify-content: left;
+    align-content: left;
+    justify-items: left;
+    align-items: left;
+    justify-self: left;
+    align-self: left;
+    text-align: left;
+    display: inline-block;
+}
+
+.tim-duncan-content {
+    margin-right: auto;
+    justify-content: left;
+    align-content: left;
+    justify-items: left;
+    align-items: left;
+    justify-self: left;
+    align-self: left;
+    text-align: left;
+    display: inline-block;
+    padding-right: 5px;
+    text-indent: 25px;
+    font-family: "Caveat", cursive;
+    font-weight: 600;
+}
+
+#wilt-the-stilt {
+    justify-self: center;
+    align-self: center;
+    height: 700px;
+}
+
+.wilt-the-stilt-2 {
+    margin-right: auto;
+    justify-content: left;
+    align-content: left;
+    justify-items: left;
+    align-items: left;
+    justify-self: left;
+    align-self: left;
+    text-align: left;
+    display: inline-block;
+}
+
+.wilt-the-stilt-content {
+    margin-right: auto;
+    justify-content: left;
+    align-content: left;
+    justify-items: left;
+    align-items: left;
+    justify-self: left;
+    align-self: left;
+    text-align: left;
+    display: inline-block;
+    padding-right: 5px;
+    text-indent: 25px;
+    font-family: "Caveat", cursive;
+    font-weight: 600;
+}
+
+#larry-legend {
+    margin-top: -650px;
+    margin-left: 775px;
+    height: 600px; 
+}
+
+.larry-legend-2 {
+    margin-right: auto;
+    justify-content: left;
+    align-content: left;
+    justify-items: left;
+    align-items: left;
+    justify-self: left;
+    align-self: left;
+    text-align: left;
+    display: inline-block;
+}
+
+.larry-legend-content {
+    margin-right: auto;
+    justify-content: left;
+    align-content: left;
+    justify-items: left;
+    align-items: left;
+    justify-self: left;
+    align-self: left;
+    text-align: left;
+    display: inline-block;
+    padding-right: 5px;
+    text-indent: 25px;
+    font-family: "Caveat", cursive;
+    font-weight: 600;
+}
+
+#magic-johnson {
+    margin-top: -550px;
+    margin-left: 750px;
+    height: 600px; 
+}
+
+.magic-johnson-2 {
+    margin-right: auto;
+    justify-content: left;
+    align-content: left;
+    justify-items: left;
+    align-items: left;
+    justify-self: left;
+    align-self: left;
+    text-align: left;
+    display: inline-block;
+}
+
+.magic-johnson-content {
+    margin-right: auto;
+    justify-content: left;
+    align-content: left;
+    justify-items: left;
+    align-items: left;
+    justify-self: left;
+    align-self: left;
+    text-align: left;
+    display: inline-block;
+    padding-right: 5px;
+    text-indent: 25px;
+    font-family: "Caveat", cursive;
+    font-weight: 600;
+}
+
+#bill-russell {
+    margin-top: -600px;
+    margin-left: 750px;
+    height: 600px; 
+}
+
+.bill-russell-2 {
+    margin-right: auto;
+    justify-content: left;
+    align-content: left;
+    justify-items: left;
+    align-items: left;
+    justify-self: left;
+    align-self: left;
+    text-align: left;
+    display: inline-block;
+}
+
+.bill-russell-content {
+    margin-right: auto;
+    justify-content: left;
+    align-content: left;
+    justify-items: left;
+    align-items: left;
+    justify-self: left;
+    align-self: left;
+    text-align: left;
+    display: inline-block;
+    padding-right: 5px;
+    text-indent: 25px;
+    font-family: "Caveat", cursive;
+    font-weight: 600;
+}
+
+#kobe-bryant {
+    margin-top: -600px;
+    margin-left: 850px;
+    height: 600px; 
+}
+
+.kobe-bryant-2 {
+    margin-right: auto;
+    justify-content: left;
+    align-content: left;
+    justify-items: left;
+    align-items: left;
+    justify-self: left;
+    align-self: left;
+    text-align: left;
+    display: inline-block;
+}
+
+.kobe-bryant-content {
+    margin-right: auto;
+    justify-content: left;
+    align-content: left;
+    justify-items: left;
+    align-items: left;
+    justify-self: left;
+    align-self: left;
+    text-align: left;
+    display: inline-block;
+    padding-right: 5px;
+    text-indent: 25px;
+    font-family: "Caveat", cursive;
+    font-weight: 600;
+}
+
+#kareem-abdul-jabbar {
+    margin-top: -575px;
+    margin-left: 800px;
+    height: 600px;
+}
+
+.kareem-abdul-jabbar-2 {
+    margin-right: auto;
+    justify-content: left;
+    align-content: left;
+    justify-items: left;
+    align-items: left;
+    justify-self: left;
+    align-self: left;
+    text-align: left;
+    display: inline-block;
+}
+
+.kareem-abdul-jabbar-content {
+    margin-right: auto;
+    justify-content: left;
+    align-content: left;
+    justify-items: left;
+    align-items: left;
+    justify-self: left;
+    align-self: left;
+    text-align: left;
+    display: inline-block;
+    padding-right: 5px;
+    text-indent: 25px;
+    font-family: "Caveat", cursive;
+    font-weight: 600;
+}
+
+#michael-jordan {
+    justify-self: center;
+    align-self: center;
+    height: 700px;
+}
+
+.michael-jordan-2 {
+    margin-right: auto;
+    justify-content: left;
+    align-content: left;
+    justify-items: left;
+    align-items: left;
+    justify-self: left;
+    align-self: left;
+    text-align: left;
+    display: inline-block;
+}
+
+.michael-jordan-content {
+    margin-right: auto;
+    justify-content: left;
+    align-content: left;
+    justify-items: left;
+    align-items: left;
+    justify-self: left;
+    align-self: left;
+    text-align: left;
+    display: inline-block;
+    padding-right: 5px;
+    text-indent: 25px;
+    font-family: "Caveat", cursive;
+    font-weight: 600;
+}
+
+#lbj {
+    height: 700px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lebron-james-2 {
+    margin-right: auto;
+    justify-content: left;
+    align-content: left;
+    justify-items: left;
+    align-items: left;
+    justify-self: left;
+    align-self: left;
+    text-align: left;
+    display: block;
+}
+
+.lebron-james-content {
+    margin-right: auto;
+    justify-content: left;
+    align-content: left;
+    justify-items: left;
+    align-items: left;
+    justify-self: left;
+    align-self: left;
+    text-align: left;
+    display: block;
+    padding-right: 5px;
+}
+
+.coming-soon {
+    color: #1D428A;
+    text-align: center;
+    margin-top: -10px;
+    font-family: "Kode Mono", monospace;
+}
+
+#lebron-james-generated {
+    height: 1100px;
+    margin-top: 100px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about {
+    text-align: center;
+    margin-right: 300px;
+    margin-left: 300px;
+    font-family: "Caveat", cursive;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+#never-be-afraid {
+    height: 600px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
